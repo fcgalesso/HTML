@@ -1,0 +1,118 @@
+:root{
+    --verde:#07b63c;
+    --preto:#141414;
+    --cinza-letra:#AAA;
+    --selecionado:#FFF;
+}   
+
+
+* {
+
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ 
+Body {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.titulo {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    margin-left: 50px;
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    background: url('../img/Fundo.jpg');
+    position:relative;
+    flex-direction:column;
+    width: 1850px;
+    height: 1200px;
+    grid-template-columns: repeat(5, 1fr);
+    padding: 0px;
+}
+
+.superior {
+    flex-direction:row;
+    display:flex;
+    margin:0;
+    padding: 0;
+}
+  
+.freecell {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.release {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left: 10px;
+    padding: 0;
+}    
+
+.inferior {
+    position: relative;
+    display:flex;
+    flex-direction:row;
+    margin-top:0px;
+    margin-left: 30px;
+    padding: 0;
+}
+
+.pilhas {
+    height: 201px;
+    width: 142px;
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin: 40px;
+    padding: 0px;
+    position:relative;
+}
+
+.marca {
+    height: 201px;
+    width: 142px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background: url('../img/MarcaDagua.png');
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0.5px;
+}
+
+.over {
+    border: 3px dotted #666;
+    z-index: 0;
+    background: blue; 
+}
+
+#logo {
+    height: 300px;
+    width: 299px;
+    margin-top: 10px;
+    margin-left: 30px;
+    background: url('../img/Logo2.png');
+}
+
+.carta {
+    height: 201px;
+    width: 142px;
+    position:relative;
+    border-style: solid;
+    border-radius: 10px;
+    border-width: 0.5px;
+    padding: 0;
+    margin: 0;
+
+}
